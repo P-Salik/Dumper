@@ -1,0 +1,34 @@
+env:
+    CIRRUS_CLONE_DEPTH: 1
+    CIRRUS_WORKING_DIR: "/tmp/dump"
+    GH_TOKEN: "ENCRYPTED[b8cbdf555f0e00c6a5ed93616a71a4d07d7f3d5ee41d23b2da74cb066a044495271b0a90e08e48e4d9f8d3e607bfe027]"
+    TG_TOKEN: "ENCRYPTED[677f16e4b81ba070a3c8197765fdae29d6203a199af45c1578dd9976668aa3de24f5d3353fd7da7baf4620b79454f28f]"
+    GH_ORG: "P-Salik-Dumps"
+    GH_USERNAME: "P-Salik"
+    GH_USEREMAIL: "peersalik16@gmail.com"
+    TG_CHAT: "-1001517616336"
+    FIRMWARE_LINK: "https://otafsg-cost.realmemobile.com/RMX1941/RMX1941EX_11.C.57_1570_202105312053/patch/amazone2/GLO/RMX1941EX/RMX1941EX_11.C.57_1570_202105312053/RMX1941EX_11_OTA_1570_all_g39iHFP1Me44_9f1f7065a523.ozip"
+
+task:
+    name: Dump
+    timeout_in: 120m
+    container:
+      image: ubuntu:latest
+      cpu: 4
+      memory: 16
+    env_script:
+      - env
+    update_script:
+      - apt-get update && apt-get upgrade -y
+    setup_script:
+      - set -evx
+      - command=$(head $CIRRUS_WORKING_DIR/dumper.sh -n $(expr $(grep "\$GH_USEREMAIL" $CIRRUS_WORKING_DIR/dumper.sh -n | cut -d : -f1) + 1))
+      - bash -c "$command"
+    download_script:
+      - set -evx
+      - command=$(head $CIRRUS_WORKING_DIR/dumper.sh -n $(expr $(grep "\$FIRMWARE_LINK" $CIRRUS_WORKING_DIR/dumper.sh -n | cut -d : -f1) + 1) | tail -n 5)
+      - bash -c "$command"
+    dump_script:
+      - set -evx
+      - command=$(tail $CIRRUS_WORKING_DIR/dumper.sh -n 20 | grep -v aria)
+      - bash -c "$command"
