@@ -24,11 +24,7 @@ task:
       - set -evx
       - command=$(head $CIRRUS_WORKING_DIR/dumper.sh -n $(expr $(grep "\$GH_USEREMAIL" $CIRRUS_WORKING_DIR/dumper.sh -n | cut -d : -f1) + 1))
       - bash -c "$command"
-    download_script:
-      - set -evx
-      - command=$(head $CIRRUS_WORKING_DIR/dumper.sh -n $(expr $(grep "\$FIRMWARE_LINK" $CIRRUS_WORKING_DIR/dumper.sh -n | cut -d : -f1) + 1) | tail -n 5)
-      - bash -c "$command"
     dump_script:
       - set -evx
-      - command=$(tail $CIRRUS_WORKING_DIR/dumper.sh -n 20 | grep -v aria)
+      - command=$(head $CIRRUS_WORKING_DIR/dumper.sh -n $(expr $(grep "\$FIRMWARE_LINK" $CIRRUS_WORKING_DIR/dumper.sh -n | cut -d : -f1) + 1) | tail -n 5)
       - bash -c "$command"
