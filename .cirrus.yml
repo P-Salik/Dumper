@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://assorted.downloads.oppo.com/firmware/CPH1931/CPH1931PUEX_11_OTA_1870_all_Rhme8YiYdblu.ozip"
+    FIRMWARE_LINK: "https://www.mediafire.com/file/f6ybogiyh07e3v3/CPH1931EX_11_C.72_201012_RepairMyMobile.zip/file"
 
 task:
     name: Dump
