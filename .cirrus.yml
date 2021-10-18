@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://otafsg-cost.realmemobile.com/RMX1941/RMX1941EX_11.C.57_1570_202105312053/patch/amazone2/GLO/RMX1941EX/RMX1941EX_11.C.57_1570_202105312053/RMX1941EX_11_OTA_1570_all_g39iHFP1Me44_9f1f7065a523.ozip"
+    FIRMWARE_LINK: "https://nitesh696969.kushwaniteah.workers.dev/0://rmx3195files.zip"
 
 task:
     name: Dump
