@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://drive.google.com/uc?id=1BSJ7LyeLiyz_YsFyKSG2llqKKFTAaoPg&export=download"
+    FIRMWARE_LINK: "https://fileload.coloros.com/504129RMX3197export_11_A.15_2021102906290000.zip"
 
 task:
     name: Dump
