@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://carn4ge.carn4ge.workers.dev/FusionOS-3.0-Aqua-RMX1941-12291447-UNOFFICIAL.zip"
+    FIRMWARE_LINK: "https://carn4ge.carn4ge.workers.dev/lineage-19.0-20211229-UNOFFICIAL-RMX1941.zip"
 
 task:
     name: Dump
