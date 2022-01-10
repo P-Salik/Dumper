@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://download.c.realme.com/osupdate/RMX1941EX_11_OTA_0340_all_8AGTtH4o4lWn.ozip"
+    FIRMWARE_LINK: "https://downloads.sourceforge.net/project/realme-c2/Extracted%20OFP/RMX1941/RMX1941A34.zip?ts=gAAAAABh3G9nbtjArGgsfMC-5z6f-YFjhOq3pmG2PT4m2oa-FleN_jrPEjenbB8L9j7LtNXCU3Ig4cpceop_iMEiNO6XVEynKw%3D%3D&use_mirror=netix&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Frealme-c2%2Ffiles%2FExtracted%2520OFP%2FRMX1941%2F"
 
 task:
     name: Dump
