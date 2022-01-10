@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://fileload.coloros.com/504321RMX3381export_11_A.08_2021121523430158.zip"
+    FIRMWARE_LINK: "https://download.c.realme.com/osupdate/RMX1941EX_11_OTA_0340_all_8AGTtH4o4lWn.ozip"
 
 task:
     name: Dump
