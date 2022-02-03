@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://bigota.d.miui.com/V13.0.2.0.SKFMIXM/miui_SWEETGlobal_V13.0.2.0.SKFMIXM_57fbf2e678_12.0.zip"
+    FIRMWARE_LINK: "https://true-mirror-69.gitsauraj.workers.dev/0:/S5302DDMB1_S5302ODDLJ1_INS.zip"
 
 task:
     name: Dump
