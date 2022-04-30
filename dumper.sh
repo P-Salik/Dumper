@@ -5,7 +5,7 @@ mkdir -p /tmp/dump
 cd /tmp/dump
 export TZ=Asia/Kolkata
 export DEBIAN_FRONTEND=noninteractive
-apt-get install git curl python python3 wget aria2 -y
+apt-get install git curl python2 python3 wget aria2 -y
 git clone https://github.com/P-Salik/phoenix_firmware_dumper
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py
