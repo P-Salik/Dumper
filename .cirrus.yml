@@ -7,7 +7,7 @@ env:
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
     TG_CHAT: "-1001517616336"
-    FIRMWARE_LINK: "https://mirrors.vijaymalav6969.workers.dev/0:/Tg/CPH2387export_11_A.07_2022052023050321__GsmMafia.Com.zip"
+    FIRMWARE_LINK: "https://bigota.d.miui.com/V13.0.2.0.SKLINXM/miui_ROSEMARYINGlobal_V13.0.2.0.SKLINXM_1d4b080d29_12.0.zip"
 
 task:
     name: Dump
