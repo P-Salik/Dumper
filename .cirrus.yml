@@ -5,7 +5,7 @@ env:
     TG_TOKEN: "ENCRYPTED[0ac6876fe59a0a91098381aba9e8fb5234bda72b9631631d38e78a8eae6004a449984223952dbdc8a06b9ebc25f6fba3]"
     GH_USERNAME: "P-Salik"
     GH_USEREMAIL: "peersalik16@gmail.com"
-    FIRMWARE_LINK: ""
+    FIRMWARE_LINK: "https://bigota.d.miui.com/V14.0.4.0.TKFMIXM/miui_SWEETGlobal_V14.0.4.0.TKFMIXM_8f4f7797e0_13.0.zip"
 
 task:
     name: Dump
