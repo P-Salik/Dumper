@@ -12,7 +12,7 @@ git clone https://github.com/P-Salik/DumprX dumper
 echo $GH_TOKEN >> dumper/.github_token 2>/dev/null
 echo "P-Salik-Dumps" >> dumper/.github_orgname 2>/dev/null
 echo $TG_TOKEN >> dumper/.tg_token 2>/dev/null
-echo "-1001641837458" >> dumper/.tg_chat 2>/dev/null
+echo "-1001517616336" >> dumper/.tg_chat 2>/dev/null
 
 git config --global user.name $GH_USERNAME
 git config --global user.email $GH_USEREMAIL
